@@ -95,7 +95,8 @@ bookContainer.addEventListener("click", (e) => {
   }
   if (e.target.classList.contains("js-btn-change")) {
     myLibrary.forEach((book) => {
-      if (book.id === e.target.dataset.uuid) {
+      console.log(book.id);
+      if (book.id === +e.target.dataset.uuid) {
         book.read = !book.read;
       }
     });
