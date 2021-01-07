@@ -4,10 +4,10 @@ const form = document.querySelector(".js-form");
 const modal = new bootstrap.Modal(document.getElementById("addModal"));
 
 // State
-let myLibrary;
+let myLibrary = [];
 
 if (localStorage.getItem("library")) {
-  myLibrary = JSON.parse(localStorage.getItem("library") || "[]");
+  myLibrary = JSON.parse(localStorage.getItem("library"));
 } else {
   localStorage.setItem("library", JSON.stringify(myLibrary));
 }
