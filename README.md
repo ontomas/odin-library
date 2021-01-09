@@ -1,5 +1,5 @@
 # Oding Library
 
-Part of the The Odin Project.
+The Odin Project assignment: https://theodinproject.com/courses/javascript/lessons/library
 
 Live preview: https://ontomas.github.io/odin-library/
